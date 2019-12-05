@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:760px)"href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width:1100px)"href="css/widescreen.css">
+    
+    <link rel="stylesheet" href="./fontawesome-free-5.11.2-web/css/all.css">
+    <title>muSSic</title>
+</head>
+<body>
+    <nav id="navbar" class="bg-primary">
+        <h1 class="logo">
+            muSSic
+        </h1>
+        <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+            <li class="dropdown">Lessons <i class="fa fa-angle-down"></i>
+                <ul id="lesson-list">
+                    <li><a href="lesson1.html">Lesson 1</a></li>
+                    <li><a href="lesson2.html">Lesson 2</a></li>
+                    <li><a href="lesson3.html">Lesson 3</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="hamburger-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <div class="card">
+        <div class="container">
+        <h2 class="lesson-heading text-primary py-2">
+            Level 2--Exploring the unexplored
+        </h2>
+        <div class="icon" style="text-align:center;">
+            <i class="fa fa-location-arrow fa-2x"></i>
+          </div>
+        <div class="card-text">
+            <p>In the previous lesson, we discussed about major triads. Continuing with that, we will talk about minor keys now.</p>
+				<img src="./images/Aminor_triad.png" class="img-fluid" alt="Aminor_triad" style="width:10rem;"/><br>
+				<audio controls>
+					<source src="./audio/Aminor_triad.mp3" type="audio/mp3">
+					Your browser does not support the audio element.
+				</audio>
+				<p>The above is a A minor triad with the root(A), 3rd(C) and 5th(E) degrees of the A minor scale. Notice the key signature.</p>
+				<p>However, an A minor triad can have the triad notes in any register, for which the following figure is also an A minor triad where the A note is one octave up. This is what is known as the <b>first inversion</b> of A minor triad, first because the root is being changed by one octave.</p>
+				<img src="./images/Aminor_triad_1stinv.png" class="img-fluid" alt="Aminor_triad_1stinv" style="width:10rem;"/><br>
+				<audio controls>
+					<source src="./audio/Aminor_triad_1stinv.mp3" type="audio/mp3">
+					Your browser does not support the audio element.
+				</audio>
+				<p>Similarly this is an E minor triad. Notice the accidental in the time signature.</p>
+				<img src="./images/Eminor_triad.png" class="img-fluid" alt="Eminor_triad" style="width:10rem;"/><br>
+				<audio controls>
+					<source src="./audio/Eminor_triad.mp3" type="audio/mp3">
+					Your browser does not support the audio element.
+				</audio>
+				<p>We also have one-octave arpeggio in minor scales. For instance, the D minor scale arpeggio-</p>
+				<img src="./images/Dminor_arpeggio.png" class="img-fluid" alt="Dminor_arpeggio" style="width:25rem;"/><br>
+				<audio controls>
+					<source src="./audio/Dminor_arpeggio.mp3" type="audio/mp3">
+					Your browser does not support the audio element.
+				</audio>
+				<p>Now that we have seen major and minor arpeggios, we will look into something called <b>broken chords</b>. A broken chord is literally breaking up into chunks and forming a pattern out of those. For example, the following is what can be called an E minor broken chord in a one-octave arpeggio pattern.</p>
+				<img src="./images/Eminor_broken_chord.png" class="img-fluid" alt="Eminor_broken_chord" style="width:30rem;"/><br>
+				<p>Note that triad notes are used in building up the broken chord above.</p>
+        </div>
+        <a href="lesson3.html" class="btn btn-primary">Goto Lesson 3</a>
+        
+        </div>
+    </div>
+    <footer id="main-footer" class="bg-dark text-center py-1">
+        <div class="container">
+                <p>Copyright &copy; 2019,muSSic,All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
