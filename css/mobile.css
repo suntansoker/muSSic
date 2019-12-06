@@ -75,7 +75,8 @@ p{
 .primary-heading,
 #about-header,
 .lesson-heading,
-#about-section .about-info #about-textcontent h2{
+#about-section .about-info #about-textcontent h2,
+#contact-section .container #contact-heading h2{
 	font-size: 1.75rem;
 	line-height:1.2;
 }
@@ -110,6 +111,16 @@ p{
 	/* margin: auto; */
 	width:30%;
 	/* border-radius:50%; */
+}
+
+#contact-section .container #form-details h3{
+	font-size: 1.2rem;
+}
+
+#contact-section .container #form-details label,
+#contact-section .container #form-details input,
+#contact-section .container #form-details textarea{
+	font-size:1rem;
 }
 
 #main-footer p{

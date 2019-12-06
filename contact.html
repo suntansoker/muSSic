@@ -44,20 +44,30 @@
             </div>
         </section>
 
-    <section id="about-section">
-        <div class="container">
-            <div class="about-info">
-                <div id="about-profilepic">
-                    <img src="images/profile_pic.jpg" alt="me">
-                </div>
-                <div id="about-textcontent">
-                    <h2><span class="text-primary">About </span>me</h2>
-                    <p>Hey there! My name is Sayantan Sarkar and welcome to my page. Together we will embark on the journey of learning music and how it makes us a better human as a whole. Hope you enjoy this rollercoaster ride ;)</p>
-                    <p>So I pretty much started my journey as an IIT Kharagpur undergrad majoring in Instrumentation Engineering (thats a long name though!) and trust me, it has nothing to do with instrumentals :p</p>
-                    <p>So in my final year of BTech, I started getting intersted towards music as a whole. Thats when I bought my first harmonica and started playing some songs on it. Thats when it hit me that I can do much better and start teaching whatever I started to know thereafer.</p>
-                    <p>I gradually started interested towards music theory. I started learning up all the stuff that goes behind every music and I thought it will be cool to let you guys know what I know and in this process hopefully I can get to know to know from you all.</p>
-                    <p>As of right now I have 2 lessons or 2 levels in music theory and more coming. Expect them to roll soon enough. I will also have a discussion forum in the future and a feedback page to improve the user experience. Till then, keep rolling!</p>
-                </div>
+    <section id="contact-section">
+        <div class="container py-2">
+            <div id="contact-heading">
+                <h2><span class="text-primary">Contact </span>me</h2>
+            </div>
+            <div id="form-details" class="py-1">
+                <h3>Share your thoughts</h3>
+                <form name="contact" method="POST" data-netlify="true">
+                    <div class="form-grp">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-grp">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your email (ex: xyz@gmail.com)">
+                    </div>
+                    <div class="form-grp">
+                        <label for="message">Your thoughts</label>
+                        <textarea name="message" rows="14" id="message" placeholder="Enter a message" required></textarea>
+                    </div>
+                    <div class="form-grp">
+                        <input type="submit" value="Submit" id="submit" class="btn btn-dark">
+                    </div>
+                </form>
             </div>
             
         </div>
