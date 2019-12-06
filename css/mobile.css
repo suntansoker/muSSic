@@ -115,3 +115,21 @@ p{
 #main-footer p{
     text-align: center;
 }
+
+@media screen and (orientation:landscape) and (min-height: 319px) 
+and (max-height: 640px){
+    #navbar{
+        position: sticky;
+        top:0;
+        height: 20vh;
+    }
+
+    #navbar .nav-links{
+        position:absolute;
+        right:0px;
+        height: 200vh;
+        top:20vh;
+       
+    }
+    
+ }
